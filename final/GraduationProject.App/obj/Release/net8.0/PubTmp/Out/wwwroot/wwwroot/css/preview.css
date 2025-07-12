@@ -1,0 +1,276 @@
+body {
+  zoom: .8;
+}
+
+video {
+  width: fit-content;
+  height: fit-content;
+}
+
+#previewPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.preview-audio-video-buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.preview-audio-video-buttons button {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.meeting-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.meeting-id-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.meeting-right-buttons {
+  display: flex;
+  column-gap: 20px;
+}
+
+button {
+  background-color: white;
+}
+
+.media-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.video-frame {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.preview-right-side {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  width: 200px;
+}
+
+.home-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+}
+
+/* Chat-wrapper*/
+.chat-wrapper {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.hide {
+  display: none;
+}
+
+.class-control {
+  position: relative;
+}
+
+#name {
+  margin-top: 15px;
+}
+
+#meetingid{
+  margin-right: 5px;
+}
+
+.flex-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.btn-content {
+  height: 53px;
+  margin-top: -20px;
+  width: 50px;
+  padding: 15px;
+  border-radius: 25px;
+  margin-left: 30px;
+}
+
+.mute-btn-content {
+  height: 50px;
+  margin-top: -20px;
+  width: 50px;
+  padding: 15px;
+  border-radius: 25px;
+  margin-left: 30px;
+}
+.vertical-line {
+  margin-left: 30px;
+  /* border-right: 1px solid white; */
+}
+.join-meeting-input {
+  display: none;
+}
+
+.media-permission {
+  max-width: 210px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ms-1 {
+  margin-left: 5px;
+}
+
+#video-frame-container {
+  height: 400px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+#videoContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#videoContainer>div {
+  border: "1px solid red ";
+  /* max-width: 33.33%; */
+  height: 100%;
+  flex: 1 1 33.3333%;
+}
+
+.participants-wrapper {
+  display: none;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  right: 0;
+  transition: 0.7s;
+  border: 1px solid black;
+  color: black !important;
+}
+
+.closebtn {
+  font-size: xx-large;
+  color: #000000;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-right: 7px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+#totalParticipants {
+  visibility: hidden;
+}
+
+#videoScreenShare {
+  flex-grow: 1;
+  /* position: absolute; */
+  border-radius: 10px;
+}
+
+.chat-wrapper {
+  display: none;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  right: 0;
+  transition: 0.7s;
+  border: 1px solid black;
+  color: black !important;
+}
+
+.select-class {
+  border-radius: 5px;
+  padding: 4px;
+  width: 210px;
+}
+
+.select-class option {
+  width: 210px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.spin{
+  animation: spin 1s linear infinite;
+}
+
+#refersh-network {
+  /* margin-top: px; */
+  padding: 5px
+}
+
+#download-speed,
+#upload-speed {
+  margin-top: 3px;
+  margin-right: 4px;
+}
+
+.btn-group {
+  display: block;
+}
+
+.dropdown-menu {
+  width: 260px;
+}
+
+.dropdown-menu.show{
+  margin-bottom: 10px !important;
+}
+
+.dropdown-menu li {
+  /* margin-bottom: 7px; */
+  padding: 10px;
+}
+
+.dropdown-menu li:hover{
+  cursor: pointer;
+}
+
+.dropup .dropdown-toggle {
+  border: 0px;
+  outline: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

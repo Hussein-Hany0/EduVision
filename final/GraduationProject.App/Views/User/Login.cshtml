@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+    Layout = "_MeetingLayout";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+}
+
+<div class="container">
+    <div class="login-left-side">
+
+        <div>
+            <h2>Login</h2>
+            <p>Please enter your login and password!</p>
+
+            <form method="post" asp-controller="User" asp-action="Login">
+                <div>
+                    <input type="email" name="Email" required placeholder="Email"/>
+                </div>
+
+                <div>
+                    <input type="password" name="Password" required placeholder="Password"/>
+                </div>
+
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div>
+            <p class="para-sign-up">Don't have an account yet? <a asp-action="Regiser" asp-controller="Home" class="sign-up">Sign Up</a></p>
+        </div>
+        <p>
+            <a class="forget-password">Forgot password?</a>
+        </p>
+    </div>
+    <div class="login-right-side">
+        <img src="~/assets/loginImage.jpg" alt="Image Not Fount" class="login-page-image"/>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
+
+    <link href="~/css/normalize.css" rel="stylesheet" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+    <header>
+        <a asp-action="index" asp-controller="home">OLMS</a>
+
+        <div class="header-anchors-div">
+            @if (Model == null)
+            {
+                <a asp-action="Login" asp-controller="User">Login</a>
+                <a asp-action="Register" asp-controller="User">Sign Up</a>
+            }
+            else
+            {
+                <span>@Model.UserName</span>
+
+                <div class="dropdown">
+                    <button class="dropdown-toggle">Settings</button>
+                    <div class="dropdown-menu">
+                        <a asp-action="Overview" asp-controller="User" aps-action="overview">Overview</a>
+                        <a asp-action="Profile" asp-controller="User" asp-action ="profile">Profile</a>
+                        <a asp-action="Privacy" asp-controller="User">Privacy</a>
+                        <a href="https://github.com/Hussein-Hany0/state-predictor" target="_blank">GitHub</a>
+                        <a asp-action="login" asp-controller="Home">Logout</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </header>
+
+
+        <main>
+            @RenderBody()
+        </main>
+
+    <footer>
+        <div>
+            <span>© @DateTime.Now.Year - OLMS</span>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

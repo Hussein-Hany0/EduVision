@@ -1,0 +1,55 @@
+﻿@model UserViewModel
+@{
+    ViewData["Title"] = "Sign Up";
+    Layout = "_MeetingLayout";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/register.css" asp-append-version="true" />
+}
+
+<div class="container">
+    <div class="signup-left-side">
+        <h2>Sign Up</h2>
+
+        <form method="post" asp-action="Register" asp-controller="User">
+            <p>Please complete the following fields!</p>
+
+            <div>
+                <input asp-for="UserName" placeholder="User Name"/>
+            </div>
+
+            <div>
+                <input asp-for="Email" placeholder="Email"/>
+                <span asp-validation-for="Email"></span>
+            </div>
+
+            <div class="password">
+                <div>
+                    <input type="password" asp-for="Password" placeholder="Password"/>
+                </div>
+                <div>
+                    <input type="password" asp-for="RepeatedPassword" placeholder="Repeated Password" />
+                </div>
+            </div>
+
+            <div class="gender">
+                <select asp-for="SelectedGender" asp-items="Model.items"></select>
+            </div>
+
+            <div class="terms">
+                <input id="terms" type="checkbox" value="true" asp-for="IsTermsAccepted" required/>
+                <label for="terms">I accept OLMS terms.</label>
+            </div>
+
+            <input type="submit" value="Sign Up" />
+        </form>
+
+        <div>
+            <p>Have an account already? <a asp-action="Login" asp-controller="Home">Login</a></p>
+        </div>
+    </div>
+    <div class="signup-right-side">
+        <img src="~/assets/loginImage.jpg" alt="Image Not Fount" class="signup-page-image" />
+    </div>
+</div>

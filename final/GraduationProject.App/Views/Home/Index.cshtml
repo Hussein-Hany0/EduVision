@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "OLSM | Home Page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+}
+
+<div class="container">
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to <span class="brand-accent">EduVision</span></h1>
+            <p class="tagline">Revolutionizing Online Education with <span class="brand-accent">AI-Powered Insights</span></p>
+            <hr class="divider" />
+            <p class="hero-desc">Elevate your online learning experience with a platform designed to bridge the gap between students and instructors.</p>
+            <p class="hero-desc">Traditional online meetings miss the human connection—student engagement, focus, and interaction. EduVision changes that with cutting-edge AI features tailored for education.</p>
+        </div>
+    </section>
+
+    <h2 class="section-title">Why Choose EduVision?</h2>
+
+    <section class="features">
+        <div class="feature-item feature-1">
+            <i class="fa-solid fa-face-smile-wink"></i>
+            <h3>Emotion Prediction</h3>
+            <p>Detect students' emotions in real-time using facial analysis to gauge understanding and mood.</p>
+        </div>
+        <div class="feature-item feature-2">
+            <i class="fa-solid fa-hand"></i>
+            <h3>Hand Sign Interaction</h3>
+            <p>Enable communication through hand gestures for inclusive participation, even for those who can’t speak.</p>
+        </div>
+        <div class="feature-item feature-3">
+            <i class="fa-solid fa-eye"></i>
+            <h3>Eye Gesture Tracking</h3>
+            <p>Monitor focus and attention with eye movement analysis to ensure students stay engaged.</p>
+        </div>
+        <div class="feature-item feature-4">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Live Dashboard</h3>
+            <p>Teachers get real-time updates and a final report on each student’s engagement and performance.</p>
+        </div>
+    </section>
+
+    <section class="meeting-section">
+        <a asp-action="preview" asp-controller="meeting">Go</a>
+    </section>
+</div>

@@ -1,0 +1,749 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\assets\\lecture-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\lecture-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\assets\\loginImage.jpg",
+      "PackagePath": "staticwebassets\\assets\\loginImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\assets\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\assets\\logo1.png",
+      "PackagePath": "staticwebassets\\assets\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\assets\\student-engagement.JPG",
+      "PackagePath": "staticwebassets\\assets\\student-engagement.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\change-password.css",
+      "PackagePath": "staticwebassets\\css\\change-password.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\lecture.css",
+      "PackagePath": "staticwebassets\\css\\lecture.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\meeting.css",
+      "PackagePath": "staticwebassets\\css\\meeting.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\overview.css",
+      "PackagePath": "staticwebassets\\css\\overview.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\preview.css",
+      "PackagePath": "staticwebassets\\css\\preview.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\privacy.css",
+      "PackagePath": "staticwebassets\\css\\privacy.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\css\\summary.css",
+      "PackagePath": "staticwebassets\\css\\summary.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\js\\meeting.js",
+      "PackagePath": "staticwebassets\\js\\meeting.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\js\\meetingConfigs.js",
+      "PackagePath": "staticwebassets\\js\\meetingConfigs.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\js\\meetingSnapshot.js",
+      "PackagePath": "staticwebassets\\js\\meetingSnapshot.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\js\\preview.js",
+      "PackagePath": "staticwebassets\\js\\preview.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\js\\profile.js",
+      "PackagePath": "staticwebassets\\js\\profile.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\js\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\js\\signalr.js.map",
+      "PackagePath": "staticwebassets\\js\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\js\\signalr.min.js",
+      "PackagePath": "staticwebassets\\js\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\js\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\js\\signalr.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\sounds\\ALERT.mp3",
+      "PackagePath": "staticwebassets\\sounds\\ALERT.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\sounds\\dislike.mp3",
+      "PackagePath": "staticwebassets\\sounds\\dislike.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\sounds\\drum.mp3",
+      "PackagePath": "staticwebassets\\sounds\\drum.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\sounds\\join.mp3",
+      "PackagePath": "staticwebassets\\sounds\\join.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\sounds\\like.mp3",
+      "PackagePath": "staticwebassets\\sounds\\like.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\sounds\\raise.mp3",
+      "PackagePath": "staticwebassets\\sounds\\raise.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\assets\\Confused_emoji.webp",
+      "PackagePath": "staticwebassets\\wwwroot\\assets\\Confused_emoji.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\assets\\Dissatisfied_emoji.webp",
+      "PackagePath": "staticwebassets\\wwwroot\\assets\\Dissatisfied_emoji.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\assets\\Distracted_Emoji.webp",
+      "PackagePath": "staticwebassets\\wwwroot\\assets\\Distracted_Emoji.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\assets\\Frustrate_emoji.webp",
+      "PackagePath": "staticwebassets\\wwwroot\\assets\\Frustrate_emoji.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\assets\\Satisfied_emoji.webp",
+      "PackagePath": "staticwebassets\\wwwroot\\assets\\Satisfied_emoji.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\assets\\student-engagement.JPG",
+      "PackagePath": "staticwebassets\\wwwroot\\assets\\student-engagement.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\change-password.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\change-password.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\lecture.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\lecture.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\meeting.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\meeting.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\overview.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\overview.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\preview.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\preview.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\wwwroot\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\wwwroot\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\clipboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\layout.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\layout.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\lecture.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\lecture.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\meeting-1.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\meeting-1.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\meeting-2.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\meeting-2.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\overview.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\overview.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\preview.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\preview.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\register.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\signalr.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\signalr.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\signalr.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\js\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\js\\signalr.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hussein\\Desktop\\final\\GraduationProject.App\\wwwroot\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GraduationProject.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GraduationProject.App.props",
+      "PackagePath": "build\\GraduationProject.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GraduationProject.App.props",
+      "PackagePath": "buildMultiTargeting\\GraduationProject.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GraduationProject.App.props",
+      "PackagePath": "buildTransitive\\GraduationProject.App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

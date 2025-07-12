@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+}
+
+.privacy-content {
+    font-size: 20px;
+}
+
+p {
+    transition-duration: 0.3s;
+    margin-top: 50px;
+}
+
+    p:hover {
+        transform: scale(1.01);
+    }
+
+strong {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    color: #4d84e2;
+}

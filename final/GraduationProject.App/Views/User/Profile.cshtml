@@ -1,0 +1,52 @@
+﻿@model ProfileViewModel
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/profile.css" asp-append-version="true" />
+}
+
+<div class="profile-container">
+
+    <div class="image-section">
+        <img src="" class="profile-img" />
+        <form>
+            <input type="file" id="image-upload" />
+            <label for="image-upload" class="upload-label">Upload New</label>
+        </form>
+    </div>
+
+    <div class="content-section">
+        <div class="field">
+            <label>User Name</label>
+            <p>@Model.UserName</p>
+        </div>
+        <div class="field">
+            <label>Email</label>
+            <p>@Model.Email</p>
+        </div>
+        <div class="field">
+            <label>Gender</label>
+            @if(Model.Gender == 0)
+            {
+                <p>Male</p>
+            }
+            @if(Model.Gender == 1){
+                <p>Female</p>
+            }
+        </div>
+        <div class="field">
+            <label>Attended Lectures</label>
+            <ul>
+                @foreach (var lecture in Model.Lectures)
+                {
+                    <li>@lecture.Title</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="~/js/profile.js"></script>
+
+}

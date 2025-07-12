@@ -1,0 +1,49 @@
+﻿@model LectureViewModel
+@{
+    ViewData["Title"] = "OLSM | Create Lecture";
+    Layout = "_MeetingLayout";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/lecture.css" asp-append-version="true" />
+}
+
+<div class="container">
+    
+    <div class="left-hand-side">
+        <h2>New Lecture</h2>
+        <form method="post" asp-action="CreateLecture" asp-controller="User">
+
+            <p>Please complete the following fields!</p>
+
+            <div>
+                <input asp-for="Title" placeholder="Lecture Title"/>
+            </div>
+
+            <div>
+                <input asp-for="Course" placeholder="Course Title"/>
+            </div>
+
+            <div>
+                <input asp-for="Link" placeholder="Lecture Link"/>
+            </div>
+
+            <div>
+                <input asp-for="UserId" value="@ViewBag.User.UserId" readonly hidden/>
+            </div>
+
+            <button type="submit">Save Lecture</button>
+
+        </form>
+    </div>
+
+    <div class="right-hand-side">
+        <img src="~/assets/lecture-image.jpg" alt="Error on loading Image" />
+    </div>
+    
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/lecture.js" asp-append-version="true"></script>
+}

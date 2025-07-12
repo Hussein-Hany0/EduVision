@@ -1,0 +1,72 @@
+﻿@model List<SummaryViewModel>
+@{
+    ViewData["Title"] = "Mind State Summary for Meeting";
+    Layout = "_MeetingLayout";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/summary.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+}
+
+<div class="arrow-left">
+    <a asp-action="overview" asp-controller="User" title="Back To Home Page">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+</div>
+
+<h1>Mind State Summary</h1>
+<h2>Lecture: @Model.FirstOrDefault()?.Lecture.Title</h2>
+<h3>Course: @Model.FirstOrDefault()?.Lecture.Course</h3>
+
+<div class="summary-container">
+    @foreach (var summary in Model)
+    {
+        <div class="summary-card">
+            <div class="card-header">
+                <div class="image-div">
+                    <img />
+                </div>
+                <strong>@summary.UserName</strong>
+            </div>
+
+            <div class="state-list">
+                @foreach (var state in summary.StateCounts)
+                {
+                    var percentage = Math.Round((double)state.Value / summary.TotalStates * 100, 2);
+
+                    string emoji = state.Key switch
+                    {
+                        "Anger" => "😠",
+                        "Disgust" => "🤢",
+                        "Fear" => "😨",
+                        "Happiness" => "😄",
+                        "Sadness" => "😢",
+                        "Surprise" => "😲",
+                        "Neutral" => "😐",
+                        _ => "❓"
+                    };
+
+                    <div class="state-row">
+                        <span class="state-label">@emoji @state.Key</span>
+                        <span class="state-percentage">@percentage%</span>
+                        <div class="progress-bar">
+                            <span class="progress" style="width:@percentage%"></span>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div class="summary-footer">
+                <div class="summary-footer">
+                    <p><strong>Dominant State:</strong> @summary.DominantState</p>
+                    <p><strong>👍 Likes:</strong> @summary.Likes</p>
+                    <p><strong>👎 Dislikes:</strong> @summary.Dislikes</p>
+                    <p><strong>✋ Hands Raised:</strong> @summary.HandsRaised</p>
+                    <p><strong>👁️ Gaze Focus:</strong> @summary.FocusPercentage%</p>
+                </div>
+
+            </div>
+        </div>
+    }
+</div>

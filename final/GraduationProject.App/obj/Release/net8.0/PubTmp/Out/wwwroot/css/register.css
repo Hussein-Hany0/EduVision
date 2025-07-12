@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 500px;
+    margin: 50px auto 0;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+    input:not([type="checkbox"]) {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input:focus {
+        caret-color: black;
+        color: black;
+    }
+
+
+.full-name {
+    display: flex;
+    column-gap: 20px;
+}
+
+    .full-name > div {
+        flex: 1;
+    }
+
+input[type=email] {
+}
+
+.password {
+    display: flex;
+    column-gap: 20px;
+}
+
+    .password > div {
+        flex: 1;
+    }
+
+
+input[type=radio] {
+    display: none;
+}
+
+.gender {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+    .gender div {
+        padding: 10px;
+        border: 1px solid white;
+        width: 100%;
+        display: flex;
+        border: 1px solid black;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+.role {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+    .role div {
+        padding: 10px;
+        border: 1px solid white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+.terms {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+button {
+    color: black;
+    padding: 10px 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: white;
+}
+
+    button:hover {
+        cursor: pointer;
+    }
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 15px;
+}
+
+.role label, .gender label {
+    cursor: pointer;
+}
+
+.active {
+    background-color: lightblue;
+}

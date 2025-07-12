@@ -1,0 +1,46 @@
+﻿@model User
+@{
+    ViewData["Title"] = "OLSM | Overview";
+    Layout = "_MeetingLayout";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/overview.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+}
+<div class="arrow-left">
+    <a asp-action="index" asp-controller="Home" title="Back To Home Page">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Course</th>
+            <th>Title</th>
+            <th>Meeting Link</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Lecture lecture in ViewBag.Lectures)
+        {
+            <tr>
+                <td>@lecture.Course</td>
+                <td>@lecture.Title</td>
+                <td>@lecture.Link</td>
+                <td>
+                    <a asp-controller="Summary" asp-action="Index" asp-route-meetingId="@lecture.Link">
+                        View Summary
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/overview.js" asp-append-version="true"></script>
+}

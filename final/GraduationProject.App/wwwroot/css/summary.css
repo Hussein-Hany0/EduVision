@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+h1 {
+    color: #007acc;
+    font-size: 2rem;
+}
+
+h2, h3 {
+    color: #444;
+    font-weight: 500;
+}
+
+.summary-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-div {
+    width: 50px;
+    height: 50px;
+    background-color: #EEE;
+    border-radius: 50%;
+}
+
+
+.summary-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    transition: transform 0.2s ease;
+}
+
+    .summary-card:hover {
+        transform: translateY(-4px);
+    }
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.card-header img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #00a9ff;
+}
+
+.state-list {
+    margin-bottom: 12px;
+}
+
+.state-row {
+    margin-bottom: 8px;
+}
+
+.state-label {
+    font-weight: 500;
+    color: #333;
+}
+
+.state-percentage {
+    float: right;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.progress-bar {
+    background-color: #eee;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.progress {
+    display: block;
+    height: 100%;
+    background-color: #00a9ff;
+    border-radius: 10px;
+}
+
+.summary-footer {
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+    font-size: 0.95em;
+    color: #444;
+}
+
+.summary-footer p {
+    margin: 4px 0;
+}

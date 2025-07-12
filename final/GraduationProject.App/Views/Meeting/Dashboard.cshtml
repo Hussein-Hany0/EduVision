@@ -1,0 +1,66 @@
+﻿@model User
+@{
+    Layout = "_MeetingLayout";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+}
+
+<div class="dashboard-wrapper">
+    <header class="dashboard-header">
+        <h1>📊 Mind State Dashboard</h1>
+    </header>
+
+    <section class="info-cards">
+        <div class="card instructor-card">
+            <h2>👨‍🏫 Instructor</h2>
+            <p>@Model.UserName</p>
+        </div>
+        <div class="card lecture-card">
+            <h2>📖 Lecture</h2>
+            <p>@ViewBag.Lecture.Title</p>
+        </div>
+        <div class="card course-card">
+            <h2>🎓 Course</h2>
+            <p>@ViewBag.Lecture.Course</p>
+        </div>
+    </section>
+
+    <section class="statistics-card card">
+        <h2>📈 Class Statistics</h2>
+        <div class="stats-grid">
+            <div class="stat-box">
+                <span class="stat-label">Total Students</span>
+                <span class="stat-value" id="totalStudents">0</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Positive</span>
+                <span class="stat-value positive" id="positiveStates">0%</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Negative</span>
+                <span class="stat-value negative" id="negativeStates">0%</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="students-section">
+        <h2>🧠 Live Mind States</h2>
+        <div class="students-grid">
+            <!-- Student cards will be injected here -->
+        </div>
+    </section>
+</div>
+
+<!-- Popup Warning -->
+<div id="popupNotification" class="popup hidden">
+    <div class="popup-content">
+        <span id="popupMessage"></span>
+        <button class="popup-dismiss" onclick="dismissPopup()">Dismiss</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/signalr.min.js"></script>
+    <script src="~/js/dashboard.js" asp-append-version="true"></script>
+}

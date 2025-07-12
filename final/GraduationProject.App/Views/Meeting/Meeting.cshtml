@@ -1,0 +1,98 @@
+﻿@model User
+@{
+    Layout = "_MeetingLayout";
+}
+
+@section Styles {
+    <link href="~/css/meeting.css" rel="stylesheet" asp-append-version="true"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+}
+
+<div class="meeting-page" id="meetingPage">
+
+    <div class="videoContainer" id="videoContainer">
+
+    </div>
+
+
+    <div class="meeting-buttons-wrapper">
+
+        <div class="meeting-id-copy">
+            <input type="text" id="meetingId" readonly />
+            <button type="button" onclick="copyMeetingCodeToClipboard()">
+                <i class="fas fa-copy"></i> Copy
+            </button>
+        </div>
+
+
+        <div class="meeting-right-buttons">
+            <button type="button" id="recordButton" class="record-button">
+                <i class="fas fa-record-vinyl"></i>
+            </button>
+
+            <button type="button" id="raiseHandButton">
+                <i class="fas fa-hand-paper"></i>
+            </button>
+            <button type="button" id="meetingMicButton">
+                <i class="fas fa-microphone"></i>
+            </button>
+            <button type="button" id="meetingCamButton">
+                <i class="fas fa-video"></i>
+            </button>
+            <button type="button" onclick="openParticipantWrapper()">
+                <i class="fas fa-users"></i>
+            </button>
+            <button type="button" onclick="openChatWrapper()">
+                <i class="fas fa-comment"></i>
+            </button>
+            <button type="button">
+                <i class="fas fa-sign-out-alt"></i>
+            </button>
+
+            <button type="button" id="saveLectureButton">
+                <a title="Save as Lecture" asp-action="CreateLecture" asp-controller="User" target="_blank">
+                    <i class="fas fa-save"></i>
+                </a>
+            </button>
+            <button type="button" id="endMeetingButton">
+                <i class="fas fa-power-off"></i>
+            </button>
+        </div>
+    </div>
+
+    <div id="participantSidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h3>Participants</h3>
+            <button onclick="closeParticipantWrapper()">×</button>
+        </div>
+        <ul id="participantList"></ul>
+    </div>
+
+
+    <div id="popupNotification" class="popup">
+        <div class="popup-content">
+            <span id="popupMessage"></span>
+            <button class="popup-dismiss" onclick="dismissPopup()">Dismiss</button>
+        </div>
+    </div>
+
+    <audio id="raiseHandSound" src="~/sounds/raise.mp3" preload="auto"></audio>
+    <audio id="likeSound" src="~/sounds/like.mp3" preload="auto"></audio>
+    <audio id="dislikeSound" src="~/sounds/dislike.mp3" preload="auto"></audio>
+
+</div>
+
+<script>
+    let user = @Html.Raw(Json.Serialize(Model));
+    let hostName = @Html.Raw(Json.Serialize(ViewData["hostName"]));
+    let meetingId = @Html.Raw(Json.Serialize(ViewData["meetingId"]));
+    let isNewMeeting = @Html.Raw(Json.Serialize(ViewData["isNewMeeting"]));
+</script>
+
+@section Scripts {
+    <script src="https://sdk.videosdk.live/js-sdk/0.0.82/videosdk.js"></script>
+    <script src="~/js/signalr.min.js"></script>
+    <script src="~/js/meetingConfigs.js" asp-append-version="true"></script>
+    <script src="~/js/meeting.js" asp-append-version="true"></script>
+    <script src="~/js/meetingSnapshot.js" asp-append-version="true"></script>
+}
